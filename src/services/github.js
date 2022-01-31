@@ -1,5 +1,5 @@
 
-const BASE_URL = "http://api.github.com";
+const BASE_URL = "https://api.github.com";
 
 let GitHub;
 
