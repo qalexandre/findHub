@@ -93,7 +93,6 @@ const HomeScreen = () => {
           />
         )}
       </div>
-      {console.log(repositories)}
       {showRepositories === true ? (
         <div data-theme={theme}>
           <Repos
