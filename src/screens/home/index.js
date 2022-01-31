@@ -42,9 +42,6 @@ const HomeScreen = () => {
 
   document.title = "FindHub";
 
- 
- 
- 
   const searchUser = async () => {
     try {
       const { profile, repos } = await getUserData(query);
@@ -54,7 +51,7 @@ const HomeScreen = () => {
       setShowProfile(true);
       setShowRepositories(true);
     } catch (error) {
-      alert("not");
+      alert("User not find");
     }
   };
 
@@ -65,7 +62,7 @@ const HomeScreen = () => {
 
   useEffect(() => {
     const localTheme = window.localStorage.getItem("theme");
-    if(localTheme !== "light" || localTheme !== "dark") setTheme('light');
+    if (localTheme !== "light" || localTheme !== "dark") setTheme("light");
     else setTheme(localTheme);
   }, []);
 
@@ -78,7 +75,7 @@ const HomeScreen = () => {
   };
 
   return (
-    <Fragment >
+    <Fragment>
       <div className="container" data-theme={theme}>
         <Header
           query={query}
@@ -93,7 +90,6 @@ const HomeScreen = () => {
             repositories={repositories}
             repoCount={repoCount}
             theme={theme}
-            
           />
         )}
       </div>
@@ -106,7 +102,7 @@ const HomeScreen = () => {
             repositories={repositories}
           />
         </div>
-      ): null}
+      ) : null}
     </Fragment>
   );
 };

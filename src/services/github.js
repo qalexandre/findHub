@@ -1,6 +1,8 @@
 
 const BASE_URL = "http://api.github.com";
 
+let GitHub;
+
 function getUserProfile(username) {
   return fetch(`${BASE_URL}/users/${username}`)
     .then((response) => response.json())
@@ -50,5 +52,5 @@ function getStarsCount(repos) {
   );
 }
 
-module.exports = getUserData;
+export default getUserData;
 
