@@ -1,0 +1,17 @@
+.header {
+}
+
+.header-info {
+  display: flex; justify-content:space-between;
+}
+
+.header-title {
+  font-family: "Mochiy Pop One", sans-serif;
+  font-size: 24px;
+  color: var(--txt_1)
+}
+
+.header-theme {
+  width: 36px;
+  height: 36px;
+}

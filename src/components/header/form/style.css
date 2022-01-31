@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Work+Sans:wght@700&display=swap");
+
+.form {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.box-input {
+  display: flex;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  width: 70vw;
+}
+
+.search-image {
+  width: 37px;
+  height: 37px;
+}
+
+.search-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px 1px 1px 0 solid #d0d7de;
+  border-radius: 12px;
+  background-color: var(--bg_3);
+  color: var(--txt_1);
+}
+
+.search-button {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 700;
+    color: #FFFFFF;
+    width: 80px;
+    background-color: #336A85;
+}

@@ -1,0 +1,28 @@
+.repository {
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--bg_2);
+  color: var(--txt_2);
+  gap: 10px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
+}
+
+.repo-title{
+  font-size: 24px;
+}
+
+.repo-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.repo-info img {
+  width: 18px;
+  height: 18px;
+}

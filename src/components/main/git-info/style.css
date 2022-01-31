@@ -1,0 +1,119 @@
+.git-info {
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 15px;
+  background-color: var(--bg_3);
+}
+
+.repositories-flex {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.followers-flex {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.stars-flex {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.following-flex {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+@media only screen and (min-width: 951px) {
+  .git-info {
+    height: 35vh;
+    width: 50vw;
+    display: grid;
+    grid-template-columns: 20% 10% 30%;
+    grid-template-rows: 50% 20% 50%;
+    justify-content: space-around;
+  }
+  .repositories {
+    grid-column: 1;
+    grid-row: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .followers-flex,
+  .following-flex {
+    justify-content: end;
+  }
+
+  .followers {
+    grid-column: 3;
+    grid-row: 1;
+    justify-self: center;
+  }
+
+  .stars {
+    grid-column: 1;
+    grid-row: 3;
+    justify-self: center;
+  }
+
+  .following {
+    grid-column: 3;
+    grid-row: 3;
+    justify-self: center;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .git-info {
+    width:50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+  }
+  .repositories-flex,
+  .stars-flex,
+  .following-flex,
+  .followers-flex {
+    justify-content: center;
+  }
+  .repositories,.stars,.followers,.following{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.git-info img {
+  width: 20px;
+  height: 20px;
+}
+
+.link {
+  font-family: "Work Sans", sans-serif;
+  margin-top: 5px;
+  color: #336a85;
+}
+
+.box-count {
+  width: 130px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  text-align: center;
+  height: 30%;
+  margin-top: 5px;
+  vertical-align: middle;
+  line-height: 35px;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
+  color: var(--txt_2);
+  background-color: var(--bg_4);
+  justify-content: center;
+}
