@@ -13,7 +13,7 @@
 
 ## Rodando o projeto
 
-O projeto está em meu [portfólio](link_portfólio), mas se deseja rodá-lo em sua máquina, siga os seguintes passos.
+O projeto está em meu [portfólio](https://qalexandre.github.io), mas se deseja rodá-lo em sua máquina, siga os seguintes passos.
 
 1. Clone este repositório. <br>
 ``` git clone https://github.com/qalexandre/findHub.git``` 
