@@ -7,7 +7,7 @@
 <br>
 
 ## Descrição do projeto
->Esse projeto apresenta algumas informações do perfil de algum usuário do github como repositórios, estrelas, etc., inserindo apenas seu nome de usuário.
+>Esse projeto apresenta algumas informações do perfil de qualquer usuário do github como repositórios públicos, estrelas, etc., inserindo apenas seu nome de usuário.
 
 <br>
 
